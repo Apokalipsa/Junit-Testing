@@ -8,7 +8,7 @@ public class countATest {
 
 	@Test
 	public void test() {
-		JunitTestung test = new JunitTestung();
+		JunitTesting test = new JunitTesting();
 		int output = test.countA("DijaNa");
 		assertEquals(2, output);
 
