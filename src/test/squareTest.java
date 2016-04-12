@@ -9,7 +9,7 @@ public class squareTest {
 	@Test
 	public void test() {
 		
-		JunitTestung test = new JunitTestung();
+		JunitTesting test = new JunitTesting();
 		int output = test.square(5);
 		assertEquals(25,output);
 	}
